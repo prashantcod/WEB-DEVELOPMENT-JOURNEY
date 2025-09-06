@@ -1,0 +1,87 @@
+/* TYPES OF SELECTORS IN CSS :  */
+
+/* 1. UNIVERSAL SELECTOR(*) */
+
+*{ 
+   font-family:'Courier New';
+   background-color: rgb(255, 255, 255);
+}
+
+
+/* 2. ELEMENT/TYPE SELECTOR(TAG NAME)  */
+
+h1 ,h3{ 
+   color:#B92B27
+}
+
+
+/* 3. ID SELECTOR (#)  */
+
+#login{ 
+    background-color: aqua;
+}
+#signup{ 
+   background-color: #B92B27;
+   color: white;
+}
+
+
+/* 4.CLASS SELECTOR (.) */ 
+
+.upvote{ 
+    background-color: rgb(63, 253, 63);
+}
+
+
+/* 5 . DESCENDANT SELECTOR(space) outer space inner  */
+  
+ .post a{                 /* this is a class-descendant selector  */
+   color:purple;
+   background-color: yellowgreen;
+}
+
+/* MULTIPLE LEVEL'S OF DESCENDENT SELECTOR :  */
+
+nav ul li { 
+    color:goldenrod
+}
+
+
+/* 6.ATTRIBUTE SELECTOR (input[attr='value']):  */
+
+input[type="text"]{ 
+    color: rgb(50, 245, 255);
+}
+
+input[type="password"]{ 
+    color:hotpink
+}
+
+input[type]{ 
+   color:darkorchid
+}
+
+/* 7. COMBINATORS (ADJACENT SIBLING COMBINATORS)(+): */
+
+p+h3{ 
+   text-decoration:rgb(98, 93, 0) underline;
+
+}
+
+.upvote+button{ 
+   background-color: lightcoral;
+}
+
+
+/* 7. CHILD COMBINATORS (>) :  */
+
+div>input{ 
+   background-color:peru;
+}
+
+
+
+
+
+
+

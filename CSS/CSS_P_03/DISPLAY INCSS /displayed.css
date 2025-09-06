@@ -1,0 +1,32 @@
+/* 
+H2{ 
+  display : inline ;
+
+}
+
+span{ 
+   display : block ; 
+}
+ */
+
+div{ 
+    background-color: aqua;
+    height:300px;
+    width: 300px;
+    border : 10px solid black ; 
+    padding: 50px ; 
+    margin : 10px ; 
+    display:inline-block;
+    
+}
+
+.REMOVE { 
+   display:none ;   /*removes the display element */
+}
+
+
+
+
+
+
+

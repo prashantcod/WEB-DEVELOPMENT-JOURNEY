@@ -1,0 +1,62 @@
+/* PSEUDO-CLASSES TYPES  :  */
+/* HOVER PSEUDO CLASS */
+button:hover{ 
+   background-color: black;
+   color: white;
+}
+
+/* ACTIVE PSEUDO CLASS  */
+  button:active{ 
+      background-color: cyan;
+  }
+
+/* CHECKED PSEUDO CLASS and MERGE STATE HERE :  */
+
+input[type="radio"]:checked+label{ 
+     font-size: larger;
+     font-weight: bold;
+     color: rgb(60, 32, 238);
+}
+
+
+/* :nth-of-type PSEUDO CLASS  */
+
+div:nth-of-type(2n){ 
+     background-color: rgb(132, 211, 207);
+}
+
+/* PSEUDO ELEMENTS  */
+
+/* 1. ::first-letter  */
+
+h1::first-letter{ 
+    color: aqua;
+}
+
+
+/* 2. ::first-line  */
+
+p::first-line{ 
+     color:rgb(34, 0, 255);
+     background-color: grey;
+}
+
+/* 3.  ::selection  */
+
+p::selection{ 
+    background-color: rgb(255, 202, 102);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

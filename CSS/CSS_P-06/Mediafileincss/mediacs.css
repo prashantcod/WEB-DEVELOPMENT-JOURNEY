@@ -1,0 +1,43 @@
+h1{ 
+   background-color: yellow;
+   border : 2px solid black ; 
+}
+
+@media(width : 500px ){ 
+    h1{ 
+       background-color:rgb(240, 52, 52);
+       color: white;
+    }
+    
+}
+/* 
+@media (min-width: 700px){ 
+   h1{ 
+       background-color: aqua;
+   }
+}
+
+@media(max-width : 300px){ 
+   h1{ 
+      background-color: rgb(56, 255, 89);
+   }
+} */
+
+/* MEDIA SHORTHAND FOR MIN AND MAX WIDTH :  */
+
+@media (min-width:400px) and (max-width:800px){ 
+   h1{ 
+      background-color: black;
+      color : white; 
+   }
+}
+
+/* FOR ORIENTATION :  */
+
+@media (orientation: landscape){ 
+   h1{ 
+      background-color: darkgreen;
+      color : white; 
+
+   }
+}

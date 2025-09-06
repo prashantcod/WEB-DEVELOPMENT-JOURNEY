@@ -1,0 +1,46 @@
+/* div{ 
+  height: 300px;
+  width: 300px;
+  background-color:greenyellow;
+  transition:1s  ;   for millisecond - ms
+}
+
+div:hover{ 
+   background-color: rgb(255, 31, 31);
+   border-radius: 50% ;
+} */
+
+
+/* transtion-shorthand properties  */
+
+div{ 
+  height: 100px;
+  width: 100px;
+  background-color:aqua;
+  margin: 0 auto ; 
+  margin-top: 10px ; 
+  transition: margin-top 2s ease 0.3s;  
+  /* transition: border-radius 1s ease 0.2s ;  */
+
+  
+   
+}
+
+div:hover { 
+  margin-top:500px ;
+  background-color:rgb(255, 41, 41);
+  border-radius: 50% ;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+

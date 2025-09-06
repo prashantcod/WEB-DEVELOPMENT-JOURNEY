@@ -1,0 +1,48 @@
+<!-- CHECKBOX AND RADIO ELEMENT  :  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHECKBOX and RADIO ELEMENT   </title>
+</head>
+<body>
+  <form action="/server">
+    <!-- CHECKBOX ELEMENT  -->
+    <div> 
+      <input type="checkbox" name="age" id="checked" >
+    <label for="checked">I am 18+ </label> 
+    </div>
+    <!-- RADIO ELEEMENT  -->
+    <div> 
+      <input type="radio" name="Gender" id="Men" value="Men" > 
+      <label for="Men">Men</label>
+      <input type="radio" name="Gender" id="female" value="female" > 
+      <label for="female">Female</label>
+    </div>
+    <!-- MULTIPLE CHECKBOXESS -->
+    <BR> 
+      CHOOSE YOUR MAJOR : 
+    <div>
+       <input type="checkbox" name="major" id="computer" value="computer" >
+    <label for="computer"> COMPUTER </label> 
+     <input type="checkbox" name="major" id="medicine" value="medicine" >
+    <label for="medicine"> MEDICINE </label> 
+     <input type="checkbox" name="major" id="history"  value="history">
+    <label for="history">  HISTORY  </label> 
+    </div>
+    <!-- DROPDOWN ELEMENT USING SELECT  -->
+    <div> 
+    <select name="personality" id="personality">
+      <option selected> SELECT YOUR OPTION  </option>
+      <option value="sig">SIGMA MALE </option>
+      <option value="alp">ALPHA MALE </option>
+      <option value="bet">BETA MALE </option>
+    </select>
+   </div>
+    
+    <button>SUbmit</button>
+  </form>
+  
+</body>
+</html>

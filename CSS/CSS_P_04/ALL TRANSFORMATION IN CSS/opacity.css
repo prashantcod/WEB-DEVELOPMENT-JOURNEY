@@ -1,0 +1,6 @@
+div{
+  height: 300px;
+  width: 300px ;
+  background-color:rgb(242, 244, 177);
+  opacity:0.5;  /* It Affects all the elements present inside it */
+}

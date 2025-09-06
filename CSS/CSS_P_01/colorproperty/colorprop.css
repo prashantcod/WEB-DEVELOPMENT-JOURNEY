@@ -1,0 +1,23 @@
+/* BACKGROUND AND FOREGROUND COLOR PROPERTY  */
+
+h1{ 
+   color:blue;
+   background-color: bisque;
+} 
+p{ 
+  color:red;
+  background-color: aquamarine;
+}
+button{ 
+  color:aqua;
+  background-color:gold
+}
+
+
+
+
+
+
+
+
+

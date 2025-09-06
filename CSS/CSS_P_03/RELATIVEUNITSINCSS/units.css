@@ -1,0 +1,64 @@
+ /* PERCENTAGE  */
+
+/* h1{ 
+    border: 2px solid black; 
+    width: 50%;
+}
+ */
+
+
+
+/* #outer{ 
+    background-color: aqua;
+    height: 400px ;
+    width: 400px;
+    margin: 100px;
+}
+
+#inner{ 
+    background-color: red;
+    height: 90px;
+    width: 90px;
+    margin-left:50%
+} */
+
+/* --------------------------------------------------------------------------------------------- */
+/* EM  */
+
+#Bahiro{ 
+    background-color: aquamarine;
+    height: 400px;
+    width: 400px;
+    border:5px; 
+    /* font-size: 25px; */
+    /* padding:50px */
+}
+
+#Bhitra{ 
+    background-color: blue;
+    color:white; 
+    height: 100px;
+    width: 100px;
+    font-size: 2em;    /* get's doube for 2em from the parent side */
+    padding:2em;      /* get's double according to it's own Bhitra features like font-size here in this case cause it was in em and it is very important because when the font-size increases and decreases the padding which is in em units also changes but in case of px it doesn't . */  
+}
+  
+/* --------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

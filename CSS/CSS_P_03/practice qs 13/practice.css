@@ -1,0 +1,57 @@
+
+/* .outer{ 
+    height: 200px;
+    width: 70px;
+    border: 2px solid black; 
+}
+
+.inner { 
+   height: 50px;
+   width: 50px;
+   border: 2px  solid black;
+   margin : 10px ;
+   border-radius: 50%;
+   color: red; 
+
+}*/
+
+div{ 
+  height: 200px;
+  width: 70px;
+  border: 2px solid black;
+   
+}
+
+div div { 
+   height: 50px;
+   width: 50px;
+   border: 2px  solid black;
+   margin : 10px ;
+   border-radius: 50%;
+}
+
+div> .first { 
+    background-color:red
+}
+
+div .second{ 
+    background-color:yellow
+   
+}
+
+div .third{ 
+   background-color: rgb(69, 243, 69);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+/* COLOR SYSTEM LIKE rgb , hexcode  */
+h2{ 
+  color:rgb(232, 217, 83);
+}
+p{ 
+  color:rgb(255,255,255) ;
+  background-color:#ff0000
+}
+button{ 
+  color: rgb(0,0,0);
+  background-color: #ff0    /*short form of hexcode */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

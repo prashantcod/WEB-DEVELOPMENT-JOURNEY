@@ -1,0 +1,47 @@
+<!-- NAME ATTRIBUTES : 
+
+THe information go through url by using name attribute if the information is sensitive than we don't use name attrubute to pass the information  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Name Attributes </title>
+</head>
+<body>
+    <!-- using the label contexts if you didn't understand go to label_inhtml -->
+     <form action="//serverbaby">
+      
+       <div>
+      <label for="prash" > USERNAME :  </label>
+      <input type="text" placeholder="ENTER USERNAME" id="prash" name="username">
+      </div>
+
+      <div>
+        <label for="hehe">PASSWORD : </label>
+        <input type="password" placeholder = "ENTER PASSWORD " id="hehe" name="passw">
+      </div>
+      <button type="submit"> SUBMIT </button>
+      
+      <!-- file://serverbaby/?username=prashantcod&passw=Itccarp7  this came using name attribute  -->
+    
+    </form>
+
+    <!-- youtube search directly   -->
+     <form action="https://www.youtube.com/results">
+
+     <input type="text" placeholder="enter here " name="search_query" > 
+     <button type="submit">SEARCH</button>
+
+
+
+     </form>
+
+     <!-- FOR GOOGLE searching directly  -->
+      <form action="https://www.google.com/search">
+        <input type="text" placeholder="HERE" name="q">
+        <button>search</button>
+      </form>
+
+</body>
+</html>

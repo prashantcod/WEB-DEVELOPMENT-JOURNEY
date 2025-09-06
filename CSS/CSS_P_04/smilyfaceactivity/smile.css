@@ -1,0 +1,48 @@
+.face { 
+    height: 400px;
+    width: 400px;
+    background-color:#ffc964 ; 
+    border-radius: 50%;
+}
+
+
+.mouth{ 
+    height: 60px;
+    width: 180px;
+    background-color: rgba(119, 40, 40, 0.88);
+    border-radius: 0 0 35px 35px ;
+    position:relative;
+    top:270px ; 
+    left:110px;
+}
+
+
+.eye{ 
+    height:60px ; 
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position:relative ; 
+    top:50px ; 
+    left:250px;
+}
+
+.eye1{ 
+    height:60px ; 
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    position:relative ;
+    top:-10px; 
+    left:90px ;
+   
+}
+
+
+
+
+
+
+
+
+

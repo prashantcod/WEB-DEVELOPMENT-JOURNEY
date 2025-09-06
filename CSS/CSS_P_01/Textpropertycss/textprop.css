@@ -1,0 +1,45 @@
+/* text-algin --> center , start(left) , end(right) , justify(produces spacing)
+font-weight --> ranges from 100->900 , can be normal(400) , bold(700) , bolder , lighter ,  
+Text Decoration -->  
+*/
+
+h1{ 
+  text-align: center;
+  text-decoration:wavy  red underline;
+  letter-spacing: 0px ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+   text-align: right ;
+   text-decoration: underline;
+   font-family: fantasy;
+}
+
+p{ 
+   text-align: start ;
+   font-weight: 400;
+   line-height: 2;
+   font-size: 15px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{ 
+    font-weight: 800; 
+    text-decoration:double blueviolet overline;
+}
+h4{ 
+   text-decoration:rgb(50, 185, 222) line-through;
+}
+a{ 
+    text-decoration: none ;
+}
+
+
+
+
+
+
+
+
+
+
+

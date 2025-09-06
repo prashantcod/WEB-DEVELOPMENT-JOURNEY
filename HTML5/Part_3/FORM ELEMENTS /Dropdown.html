@@ -1,0 +1,36 @@
+<!-- DROPDOWN : We use select option for this  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DROPDOWN and RANGE ELEMENT AND TEXT AREA  </title>
+</head>
+<body>
+  CHOOSE YOUR PERSONALITY HERE : 
+  <form action="/server">
+   <div> 
+    <select name="personality" id="personality">
+      <option selected> SELECT YOUR OPTION  </option>
+      <option value="sig">SIGMA MALE </option>
+      <option value="alp">ALPHA MALE </option>
+      <option value="bet">BETA MALE </option>
+    </select>
+   </div>
+   <!-- RANGE ELEMENT :  -->
+   <div> 
+    <label for="IQ">SELECT YOUR IQ LEVEL : </label>
+    <input type="range" name="IQ" id="IQ" min="0" max="200" step="20" value="100">
+   </div>
+   <!-- TEXT AREA FOR COMMENTS  -->
+   <div> 
+     <label for="comments">COMMENT HERE : </label>
+     <textarea id="comments" name="comments" placeholder="Type here " 
+               maxlength="500" minlength="5" 
+               rows="5" cols="100"></textarea>
+   </div>
+   <button>SUBMIT</button>
+  </form>
+      
+</body>
+</html>

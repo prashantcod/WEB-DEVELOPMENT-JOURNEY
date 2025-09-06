@@ -1,0 +1,86 @@
+section{ 
+    margin-top: 100px;
+}
+
+div { 
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color:chocolate;
+    border: 2px solid black; 
+    margin: 10px
+}
+
+div:nth-of-type(2n){       /* every 2nd element (2n) means */
+   background-color: rgb(207, 149, 231);
+}
+
+div:nth-of-type(3n){ 
+   background-color: rgb(101, 255, 255);
+}
+
+/* TRANSFORM  */
+/* ROTATE  */
+#first{ 
+   transform: rotate(45deg);
+}
+
+/* SCALE  */
+#second{ 
+    transform : scale(0.6);
+}
+
+/* TRANSLATE  */
+#third { 
+    transform : translate(300px,-200px)
+}
+
+/* SKEW  */
+#fourth { 
+    transform : skew(30deg);
+}
+
+
+#fifth { 
+    transform : translate(600px , 50px) rotate(30deg) scale(3) skew(30deg) ; 
+}
+
+/* BOX SHADOW  */
+#box{ 
+    border : none;
+    box-shadow: 10px 4px 15px black;
+}
+
+/* BACKGROUND IMAGE  */
+#backgroundimg{ 
+   height: 600px;
+   width: 600px;
+   margin-left: 700px;
+   background-color: rgb(99, 203, 99);
+   background-image: url("hehe.jpg");
+   background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
